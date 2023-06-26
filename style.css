@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+h1 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  font-size: small;
+}
+
+h2 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  font-size: small;
+}
+
+
+body {
+  backround-color: #ffa500;
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  font-size: small;
+  line-height: normal;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
